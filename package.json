@@ -1,0 +1,20 @@
+{
+  "name": "oatmeal-be",
+  "version": "1.0.0",
+  "description": "Oatmeal backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Maria Gonzalez",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^3.11.1",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "prisma": "^3.11.1",
+    "typescript": "^4.6.3"
+  }
+}
